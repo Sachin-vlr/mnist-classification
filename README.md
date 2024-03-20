@@ -11,7 +11,7 @@ The MNIST dataset is a collection of handwritten digits. The task is to classify
 
 ## Neural Network Model
 
-
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/0e184f8f-20c4-4fea-b227-212fa759ce25)
 
 ## DESIGN STEPS
 
@@ -179,9 +179,10 @@ print(x_single_prediction)
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/d4322e2b-8c63-4621-81b1-deb1ec0299f5)
 
 ### New Sample Data Prediction
-![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/453e014c-089e-4714-ae23-12a8953a035c)
 
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/8eab72c4-5cef-4064-9803-dbf32568e7f7)
+
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/453e014c-089e-4714-ae23-12a8953a035c)
 
 ## RESULT
 
