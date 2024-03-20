@@ -50,7 +50,7 @@ Fit the model and predict the single input
 ### Name: SACHIN.C
 ### Register Number:212222230125
 
-```
+```python
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -168,20 +168,21 @@ print(x_single_prediction)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/274e14f2-701e-43ce-adf5-a276dbebedb9)
 
-Include your plot here
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/bb6dbb13-2dc1-4150-bbf0-737c7a873965)
 
 ### Classification Report
-
-Include Classification Report here
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/45aa4f80-fcba-40ba-97e2-f00d01d4a5a2)
 
 ### Confusion Matrix
-
-Include confusion matrix here
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/d4322e2b-8c63-4621-81b1-deb1ec0299f5)
 
 ### New Sample Data Prediction
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/453e014c-089e-4714-ae23-12a8953a035c)
 
-Include your sample input and output for your hand written images.
+![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/8eab72c4-5cef-4064-9803-dbf32568e7f7)
 
 ## RESULT
-Include your result here.
+
+A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
