@@ -145,27 +145,20 @@ img_28_gray_inverted_scaled = img_28_gray_inverted.numpy()/255.0
 x_single_prediction = np.argmax(model.predict(img_28_gray_inverted_scaled.reshape(1,28,28,1)),axis=1)
 
 print(x_single_prediction)
-```
-
+``
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/274e14f2-701e-43ce-adf5-a276dbebedb9)
-
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/bb6dbb13-2dc1-4150-bbf0-737c7a873965)
-
 ### Classification Report
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/45aa4f80-fcba-40ba-97e2-f00d01d4a5a2)
-
 ### Confusion Matrix
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/d4322e2b-8c63-4621-81b1-deb1ec0299f5)
-
 ### New Sample Data Prediction
-
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/8eab72c4-5cef-4064-9803-dbf32568e7f7)
 
 ![image](https://github.com/Sachin-vlr/mnist-classification/assets/113497666/453e014c-089e-4714-ae23-12a8953a035c)
-
 ## RESULT
 
 A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
